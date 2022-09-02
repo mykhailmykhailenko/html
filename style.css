@@ -1,9 +1,17 @@
-body {
-background-image: url('./Img/03cad7cada519b2427a7e0ac885e3992.png');
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-color: white;
+button {
+    background-color: aquamarine;
+    color: blueviolet;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 50px;
+    max-width: 100px;
+
+    min-height: 50px;
+    max-height: 100px;
+
+    /* Три правила разом */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
-
-
