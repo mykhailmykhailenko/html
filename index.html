@@ -10,11 +10,18 @@
         h2 {
             color: red;
         }
-        p{
-            color: rgba(14, 75, 218, 0.8); /* rgb(122, 23, 123) Red Green Blue*/ /* rgba різновид rgb + alfa-chanel - 0-1  rgba(67, 29, 68, 0.8) последний параметр это прозрачность текста*/
+        p{ /* tag selector*/
+            color: rgb(14, 75, 218);
+            font-size: 20px;
         }
-        span{
-            color: #ff23ff;
+        #text-paragraph{/* ID selector*/
+           font-weight: bold;
+           font-size: 40px; 
+           /* inlinestyles 1000 ID має більшу вагу 0100 за class 0010*/
+        } 
+        .red-big-text { /* class selector */
+            color: red;
+            font-size: 30px;
         }
     </style>
 </head>
@@ -23,8 +30,8 @@
     <article>
         <h2>Heading</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span> Ea facilis suscipit placeat tempore quos natus asperiores eveniet.</span> Eos, quae odio.</p>
-        <p>Magnam nisi similique est, inventore quos aut? Nisi, dolorum alias perferendis enim culpa iure explicabo temporibus inventore similique. Neque, quos.</p>
-        <p>Velit fugit fugiat saepe error quos corrupti maxime, consequatur libero praesentium quis voluptatum ex eos accusantium possimus quod odit sapiente?</p>
+        <p id="text-paragraph" class="red-big-text">Magnam nisi similique est, inventore quos aut? Nisi, dolorum alias perferendis enim culpa iure explicabo temporibus inventore similique. Neque, quos.</p>
+        <p>Velit fugit fugiat saepe error quos corrupti maxime, <span class="red-big-text">consequatur libero praesentium quis voluptatum ex eos accusantium possimus</span> quod odit sapiente?</p>
     </article>
 </section>
    
