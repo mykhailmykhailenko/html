@@ -1,21 +1,9 @@
-h2 {
-    font-size: 30px;
-    background-color: aquamarine;
-    text-align: center;
+body {
+background-image: url('./Img/03cad7cada519b2427a7e0ac885e3992.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+color: white;
 }
 
-p {
-    color: red;
-    font-size: 20px;
-    line-height: 1.5em; /* em - відносна одиниця виміру. 1em = 1розмір батьківського елементу */
-    text-align: justify;
-    text-transform: capitalize;
 
-}
-
-a {
-    /* text-decoration-color: brown;
-    text-decoration-line: underline;
-    text-decoration-style: wavy; */
-    text-decoration: none;
-}
