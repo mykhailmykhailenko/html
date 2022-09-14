@@ -1,3 +1,16 @@
-@import url('./reset.css');
-@import url('./mobile.css');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 
+@font-face {
+    font-family: 'Combo';
+    src: url(./fonts/Combo-Regular.ttf) format("truetype");
+}
+
+h2   {
+    font-family: 'Combo', cursive;
+    font-size: 60px;
+}
+
+p {
+    font-family: 'Ms Madi';
+    font-size: 40px;
+}
