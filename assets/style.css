@@ -1,21 +1,22 @@
-/* @import url(./reset.css);
-@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
-
-@font-face {
-    font-family: 'Combo';
-    src: url(./fonts/Combo-Regular.ttf) format("truetype");
+.wrapper {
+    width: 80%;
+    border: 1px solid black;
 }
 
-h2   {
-    font-family: 'Combo', cursive;
-    font-size: 60px;
+.hack {
+    border: 1px solid red;
+    padding-top: calc(3/4*100%);
+    position: relative;
 }
 
-p {
-    font-family: 'Ms Madi';
-    font-size: 40px;
-} */
-
-video {
+img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    /* bottom: 0;
+    left: 0;
+    right: 0; */
 }
