@@ -6,10 +6,21 @@ body {
     margin: 0;
 }
 
+.container {
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: flex-start;
+    flex-wrap: wrap-reverse;
+    align-content: flex-start;
+}
+
 .item {
-    box-sizing: border-box;
     border: 2px solid red;
     background-color: blueviolet;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
