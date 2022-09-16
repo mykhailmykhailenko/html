@@ -1,3 +1,10 @@
+:root {
+    --sm-size: 576px;
+    --md-size: 768px;
+    --lg-size: 992px;
+    --xl-size: 1200px;
+}
+
 section {
     display: flex;
     flex-direction: row;
@@ -12,13 +19,26 @@ article:first-child {
     flex-grow: 5;
 }
 
-@media screen and (max-width: 576px) { 
-    section {
-       flex-direction: column;
-    }
-
-    article {
-        
-        width: 100%;
-    }
+@media screen and (min-width: 576px) {
+   p {
+    color: green;
+   }
 }
+
+@media screen and (min-width: 768px) {
+    p {
+     color: red;
+    }
+ }
+
+ @media screen and (min-width: 992px) {
+    p {
+     color: blueviolet;
+    }
+ }
+
+ @media screen and (min-width: 1200px) {
+    p {
+     color: blue;
+    }
+ }
